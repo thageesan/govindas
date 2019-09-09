@@ -220,7 +220,7 @@ $(window).on("load",function(){
   $('.timepicker').timepicker({ 
     'scrollDefault': 'now' 
   });
-  if ($("section.booking").isInViewport()) {
+  if ($("section.booking #bookingform button").isInViewport()) {
       $("footer").show();
   }else{
       $("footer").hide();
