@@ -147,7 +147,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 body.dark-version .navbar li .dropdown-item{
         color: #ffffff !important;
 }
-body.dark-version .dropdown-item:focus,body.dark-version . .dropdown-item:hover{
+body.dark-version .dropdown-item:focus,body.dark-version .dropdown-item:hover{
     background: #ff7200 !important;
 }
 .material-icon .spinner {
@@ -309,11 +309,12 @@ body.dark-version .dropdown-item:focus,body.dark-version . .dropdown-item:hover{
 
 #slider1 p.title{
   font-family: Google Sans;
-  font-size: 84.5px;
+  font-size: 6vh !important;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.72;
+  line-height: initial !important;
+  /* line-height: 0.72; */
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
@@ -409,7 +410,6 @@ a.bt-orange, button.bt-orange{
     border: solid 1px #ff7200; 
     background-color: #ff7200;
     color: #ffffff;
-    display: inline-block;
     float: left;
     font-weight: 500;
     font-stretch: normal;
@@ -691,11 +691,16 @@ li.nav-social ul .nav-link:before {
 .hambuger {
     margin-left: 33px !important;
 }
+
+.hambuger .dropdown-icon {
+    height: 100%;
+}
+
 .onlyresponsive {
     display: none !important;
 }
 .onlydesktop{
-    display: block !important;
+    /* display: block !important; */
 }
 .justify-content-center{
     margin: auto;
@@ -1357,7 +1362,7 @@ body.dark-version.bodypadding .overlayer-fixed .navbar-brand.black{
     padding-right: 0px;
 }
 .slick-arrow.slick-next:hover,.slick-arrow.slick-prev:hover{
-    background: url(../img/slick/bt-arrow-orange.svg) no-repeat center #191b1b;
+    background: url(../img/slick/bt-arrow-orange.svg) no-repeat center #000000;
     background-size: 8px 13px;
 }
 .slick-arrow.slick-prev.light:hover{
@@ -1742,7 +1747,7 @@ h4{
     line-height: 1.14;
     letter-spacing: normal;
     text-align: left;
-    color: #191b1b;
+    color: #000000;
 }
 h4.white{
     color: #ffffff;
@@ -1919,7 +1924,7 @@ h4.small.right:before{
 }
 
 .contentslide .sliderslide-content h4{
-    color: #191b1b;
+    color: #000000;
     font-family: Google Sans;
     font-size: 20px;
     font-weight: 500;
@@ -2025,7 +2030,7 @@ h4.small.right:before{
 }
 
 .history-content{
-    background:#191b1b;
+    background:#000000;
     padding-right: 0px;
     height: 100%;
     padding-left: 85px;
@@ -2053,12 +2058,12 @@ body.dark-version .testimonials-content p.customer{
     color: #1ea022;
 }
 .history-image{
-    background: url(../img/demo/history/img-home-history.jpg) no-repeat top center #191b1b; 
+    background: url(../img/demo/history/img-home-history.jpg) no-repeat top center #000000; 
     background-size: cover;
     height: 100%;
 }
 body.dark-version .history-image{
-    background: url(../img/demo/dark-version/history/img-home-history.jpg) no-repeat top center #191b1b; 
+    background: url(../img/demo/dark-version/history/img-home-history.jpg) no-repeat top center #000000; 
     background-size: cover;
     height: 100%;
 }
@@ -2074,7 +2079,7 @@ body.dark-version footer, body.dark-version footer .copyright{
 }
 
 .testimonials-content{
-    background:#191b1b;
+    background:#000000;
     padding-right: 0px;
     height: 100%;
     padding-left: 85px;
@@ -2082,12 +2087,12 @@ body.dark-version footer, body.dark-version footer .copyright{
     padding-bottom:245px;
 }
 .testimonials-image{
-    background: url(../img/testimonials/testimonials.jpg) no-repeat center #191b1b; 
+    background: url(../img/testimonials/testimonials.jpg) no-repeat center #000000; 
     background-size: cover;
     height: 100%;
 }
 body.dark-version .testimonials-image{
-    background: url(../img/testimonials/testimonials.jpg) no-repeat center #191b1b; 
+    background: url(../img/testimonials/testimonials.jpg) no-repeat center #000000; 
     background-size: cover;
     height: 100%;
 }
@@ -2105,7 +2110,6 @@ body.dark-version .testimonials-image{
 }
 
 .section.menu .featured-button{
-    display: inline-block;
     float: right;
 
 }
@@ -2333,7 +2337,7 @@ footer .logo{
     max-width: 220px;
 }
 footer{
-    background: #191b1b;
+    background: #000000;
     position: fixed;
     z-index: -1;
     width: 100%;
@@ -2403,6 +2407,13 @@ footer{
     display: inline-block;
     margin-left: 50px;
 }
+
+.col-footer-4{
+    display: inline-block;
+    max-width: 500px;
+    padding-left: 0px;
+}
+
 .booking-form input, .booking-form input:active, .booking-form input:focus, .booking-form input:hover{
     border:1px solid #eaeaea;
     padding: 20px 30px;
@@ -2930,7 +2941,7 @@ ul.filters li:last-child{
 }
 
 .copyright {
-  background-color: #191b1b;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -3016,10 +3027,6 @@ body.dark-version #mask{
 }
 header .col-auto{
     padding-top: 10px;
-}
-a.mr-3{
-    position: relative;
-    top: -20px;
 }
 .dark-version .design-slider p{
     color: #ffffff;
@@ -3123,6 +3130,9 @@ a.mr-3{
     .col-footer-1{
         padding-left: 40px;
     }
+    .col-footer-4{
+        padding-left: 40px;
+    }
     .slick-arrow{
         margin-right: 25px;
     }
@@ -3192,6 +3202,11 @@ a.mr-3{
         margin: auto;
         margin-bottom: 50px;
     }
+    .col-footer-4{
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
     footer .row.justify-content-between{
         margin-left: 15%;
     }
@@ -3238,6 +3253,11 @@ a.mr-3{
         margin: auto;
         margin-bottom: 50px;
     }
+    .col-footer-4{
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
     footer .row.justify-content-between{
         margin-left: 6%;
     }
@@ -3248,7 +3268,13 @@ a.mr-3{
     footer .col-footer-1 p{
         max-width: 95%;
     }
+    footer .col-footer-4 p{
+        max-width: 95%;
+    }
     footer .col-footer-3{
+        max-width: 500px;
+    }
+    footer .col-footer-4{
         max-width: 500px;
     }
     .loadmore span{
@@ -3285,6 +3311,9 @@ a.mr-3{
     .col-footer-1{
         margin-left: 3%;
     }
+    .col-footer-4{
+        margin-left: 3%;
+    }
     .col-lg-6.equalHW {
         min-width: 100%;
     }
@@ -3299,9 +3328,17 @@ a.mr-3{
     
 }
 @media(max-width: 800px){
+    header .col-auto {
+        padding-top: initial;
+    }
+
+    .header.overlayer-fixed.fixed-small .justify-content-between {
+        padding: initial !important;
+    }
     .responsiveFullwidth{
         min-width: 100% !important;
     }
+
     .responsiveFullwidthText{
         min-width: 100% !important;
         min-height: 450px;
@@ -3356,7 +3393,7 @@ a.mr-3{
     }
 
     .header.overlayer-fixed{ padding-top: 20px; }
-      .navbar-brand img{ margin-left: -10px; max-width: 150px; }
+      .navbar-brand img{ margin-left: -10px; max-width: 150px; max-height: 50px;}
       .header.overlayer-fixed .navbar{ top: 15px;}
     a.bt-orange.bt-reserve-slider.left, button.bt-reserve-slider.bt-orange.left, .btns-social-slider{
         margin-left:20px;
@@ -3499,6 +3536,9 @@ a.mr-3{
     .col-footer-1{
         max-width: 95%;
     }
+    .col-footer-4{
+        max-width: 95%;
+    }
     footer .col-footer-2{
         margin-left: 9%;
     }
@@ -3513,7 +3553,7 @@ a.mr-3{
 
 @media (max-width: 480px){
     .header.overlayer-fixed{ padding-top: 20px; }
-    .navbar-brand img{ margin-left: -10px; max-width: 150px; }
+    .navbar-brand img{ margin-left: -10px; max-width: 150px; max-height: 50px; }
     .header.overlayer-fixed .navbar{ top: 15px;}
     a.bt-orange.bt-reserve-slider.left, button.bt-reserve-slider.bt-orange.left, .btns-social-slider{
         margin-left:20px;
@@ -3521,9 +3561,9 @@ a.mr-3{
     .loadmore {
         margin-top: 10px;
     }
-    .header.overlayer-fixed.fixed-small{
+    /* .header.overlayer-fixed.fixed-small{
         padding-top: 0px;
-    }
+    } */
     .header.overlayer-fixed.fixed-small .navbar{ top: 10px;}
     .slide-home .slick-arrow.bottom{
         right: -10px;
@@ -3611,6 +3651,9 @@ a.mr-3{
         padding-left: 40px;
     }
     footer .col-footer-1 p{
+        max-width: 90%;
+    }
+    footer .col-footer-4 p{
         max-width: 90%;
     }
     .header.overlayer-fixed .navbar{
