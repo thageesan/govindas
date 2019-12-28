@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
 
 
-
     <link rel="stylesheet" href="vendor/revolution/css/revolution.all.css">
     <link rel="stylesheet" href="vendor/revolution/css/revolution.css">
     <link rel="stylesheet" href="vendor/aos/css/aos.css">
@@ -34,308 +33,157 @@
 </head>
 
 <body id="page-top">
-    <!-- Start  Loading Mask-->
-    <div id="mask">
-        <div class="material-icon">
-            <div class="spinner">
-                <div class="right-side">
-                    <div class="bar"></div>
-                </div>
-                <div class="left-side">
-                    <div class="bar"></div>
-                </div>
+<!-- Start  Loading Mask-->
+<div id="mask">
+    <div class="material-icon">
+        <div class="spinner">
+            <div class="right-side">
+                <div class="bar"></div>
             </div>
-            <div class="spinner color-2">
-                <div class="right-side">
-                    <div class="bar"></div>
+            <div class="left-side">
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="spinner color-2">
+            <div class="right-side">
+                <div class="bar"></div>
+            </div>
+            <div class="left-side">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Loading Mask-->
+
+<!-- Navigation -->
+<header class="container-fluid header js-header-fixsmall overlayer-fixed">
+    <!-- Start Navbar-->
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <a class="navbar-brand" href="index.html"><img src="img/logos/logo-slider-white.png" alt=""></a>
+                    <a class="navbar-brand black" href="index.html"><img src="img/logos/logo-slider-black.png"
+                                                                         alt=""></a>
                 </div>
-                <div class="left-side">
-                    <div class="bar"></div>
+                <div class="d-flex justify-content-center onlydesktop">
+                    <ul class="navbar">
+                        <li><a class="nav-link" href="./menu.html">Menu</a></li>
+                        <li><a class="nav-link" href="./event.html">Catering / Events</a></li>
+                        <li><a class="nav-link" href="./faq.html">FAQ</a></li>
+                        <li><a class="nav-link active" href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <ul class="navbar float-right onlydesktop">
+                        <li><a class="fb-ic mr-3" href="http://www.facebook.com" target="_blank" role="button"><i
+                                class="fab fa-lg fa-facebook-f"></i></a></li>
+                        <li><a class="tw-ic mr-3" href="http://www.tripadvisor.com" target="_blank" role="button"><i
+                                class="fab fa-lg fa-tripadvisor"></i></a></li>
+                        <li><a class="tw-ic mr-3" href="http://www.twitter.com" role="button"><i
+                                class="fab fa-lg fa-twitter"></i></a></li>
+                    </ul>
+                    <ul class="navbar">
+                        <li class="hambuger onlyresponsive">
+                            <button id="trigger-overlay" class="trigger-overlay dropdown-icon"><span></span></button>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-     <!-- End Loading Mask-->
-
-    <!-- Navigation -->
-    <header class="container-fluid header js-header-fixsmall overlayer-fixed">
-      <!-- Start Navbar-->
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <div class="row justify-content-between">
-                    <div class="col-auto">
-                        <a class="navbar-brand" href="index.html"><img src="img/logos/logo-slider-white.png" alt=""></a>
-                        <a class="navbar-brand black" href="index.html"><img src="img/logos/logo-slider-black.png" alt=""></a>
-                    </div>
-                    <div class="d-flex justify-content-center onlydesktop">
-                        <ul class="navbar">
-                            <li><a href="#section-home" class="animatedScroll nav-link active">Home</a></li>
-                            <li><a class="nav-link" href="./faq.html">FAQ</a></li>
-                            <li><a class="nav-link" href="./event.html">Catering / Events</a></li>
-                            <li><a class="nav-link" href="./menu.html">Menu</a></li>
-                            <li><a class="nav-link" href="./contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="d-flex justify-content-end">
-                        <ul class="navbar float-right onlydesktop">
-                            <li><a class="fb-ic mr-3" href="http://www.facebook.com" target="_blank" role="button"><i class="fab fa-lg fa-facebook-f"></i></a></li>
-                            <li><a class="tw-ic mr-3" href="http://www.tripadvisor.com"  target="_blank" role="button"><i class="fab fa-lg fa-tripadvisor"></i></a></li>
-                            <li><a class="tw-ic mr-3" href="http://www.twitter.com" role="button"><i class="fab fa-lg fa-twitter"></i></a></li>
-                        </ul>
-                        <ul class="navbar">
-                             <li class="hambuger onlyresponsive">
-                                <button id="trigger-overlay" class="trigger-overlay dropdown-icon"><span></span></button>
-                            </li>
-                           
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <div class="overlay overlay-hugeinc">
+        <div class="overlay-content"><span class="trigger-overlay"></span>
+            <nav id="nav">
+                <ul>
+                    <li class="current"><a href="./index.html">Home</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./event.html">Catering / Events</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-       <div class="overlay overlay-hugeinc">
-            <div class="overlay-content"><span class="trigger-overlay"></span>
-                <nav id="nav">
-                    <ul>
-                        <li class="current"><a href="#section-home" class="animatedScroll">Home</a></li>
-                        <li><a href="./faq.html">FAQ</a></li>
-                        <li><a href="./event.html">Catering / Events</a></li>
-                        <li><a href="./menu.html">Menu</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-         <!-- End Navbar-->
-    </header>
+    </div>
+    <!-- End Navbar-->
+</header>
 
-    <!--[if IE]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
-    
+<!--[if IE]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
+        href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 
-    <!-- Hero Section  Start -->
+
+<!-- Hero Section  Start -->
 <section id="section-home" class="slider slide-overlay-black">
     <!-- START REVOLUTION -->
     <div class="rev_slider_wrapper">
-        <div id="slider1" class="rev_slider"  data-version="5.0">
+        <div id="slider1" class="rev_slider" data-version="5.0">
             <ul>
-                    
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="img/slider/sliderbg1.jpg" data-title="Slide Title" data-transition="slotfade-horizontal">
-                        <img alt=""  class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="img/slider/sliderbg1.jpg"> 
-                        
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['-80']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Welcome to Govinda’s Restaurant</h2>
-                        </div>
-                        
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['0']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="title">Eat Healthy and Natural Food</p>
-                        </div>
 
-                        <div class="tp-caption"
-                        data-responsive_offset="on" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['100']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="description">Govinda's is a vegetarian / vegan restaurant serving fusion cuisine <br /> located in an historic building in downtown Toronto, minutes from Yorkville.</p>
-                        </div>
-                        
-                        <div class="tp-caption" 
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-width="['1170','1170','1170','420']"
-                        data-whitespace="normal"
-                        data-voffset="['200']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="btns-box">
-                                <a href="./menu.html" class="animatedScroll theme-btn btn-style-one bt-orange">OUR MENU</a>
-                                <a href="#section-history" class="animatedScroll theme-btn btn-style-one bt-default">ABOUT US</a>
-                            </div>
-                        </div>
-                    </li>
+                <li data-description="Slide Description" data-easein="default" data-easeout="default"
+                    data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0"
+                    data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1=""
+                    data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+                    data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
+                    data-slotamount="default" data-thumb="img/slider/sliderbg1.jpg" data-title="Slide Title"
+                    data-transition="slotfade-horizontal">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
+                         data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
+                         src="img/slider/sliderbg1.jpg">
 
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="img/slider/sliderbg2.jpg" data-title="Slide Title" data-transition="slotfade-horizontal">
-                        <img alt=""  class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="img/slider/sliderbg2.jpg"> 
-                        
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['-80']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Welcome to Govinda’s Restaurant</h2>
-                        </div>
-                        
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['0']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="title">The Best Delicious Food</p>
-                        </div>
+                    <div class="tp-caption"
+                         data-x="['center']"
+                         data-hoffset="['15','135','15','15']"
+                         data-voffset="['-80']"
+                         data-x="['center']"
+                         data-y="['middle','middle','middle','middle']"
+                         data-textalign="['center']"
+                         data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <h2>Welcome to Govinda’s Restaurant</h2>
+                    </div>
 
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['100']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="description">Govinda's is a vegetarian / vegan restaurant serving fusion cuisine <br /> located in an historic building in downtown Toronto, minutes from Yorkville.</p>
-                        </div>
-                        
-                        <div class="tp-caption" 
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-width="['1170','1170','1170','420']"
-                        data-whitespace="normal"
-                        data-voffset="['200']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="btns-box">
-                                <a href="./menu.html" class="animatedScroll theme-btn btn-style-one bt-orange">OUR MENU</a>
-                                <a href="#section-history" class="animatedScroll theme-btn btn-style-one bt-default">ABOUT US</a>
-                            </div>
-                        </div>
-                    </li>
+                    <div class="tp-caption"
+                         data-x="['center']"
+                         data-hoffset="['15','135','15','15']"
+                         data-voffset="['50']"
+                         data-x="['center']"
+                         data-y="['middle','middle','middle','middle']"
+                         data-textalign="['center']"
+                         data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <p class="title">Vegan / Vegetarian Restaurant <br /> Near Yorkville, Toronto</p>
+                    </div>
 
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="img/slider/sliderbg3.jpg" data-title="Slide Title" data-transition="slotfade-horizontal">
-                        <img alt=""  class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="img/slider/sliderbg3.jpg"> 
-                        
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['-80']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Welcome to Govinda’s Restaurant</h2>
-                        </div>
-                        
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['0']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="title">Eat Healthy and Natural Food</p>
-                        </div>
+                    <div class="tp-caption"
+                         data-responsive_offset="on"
+                         data-x="['center']"
+                         data-hoffset="['15','135','15','15']"
+                         data-voffset="['200']"
+                         data-x="['center']"
+                         data-y="['middle','middle','middle','middle']"
+                         data-textalign="['center']"
+                         data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <p class="description">
+                            We are located at 243 Avenue Road <br />
+                            (at the corner of Avenue Road and Roxborough St.) <br />
+                            in downtown Toronto, minutes from Yorkville.
+                    </div>
 
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['100']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="description">Govinda's is a vegetarian / vegan restaurant serving fusion cuisine <br /> located in an historic building in downtown Toronto, minutes from Yorkville.</p>
-                        </div>
-                        
-                        <div class="tp-caption" 
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-width="['1170','1170','1170','420']"
-                        data-whitespace="normal"
-                        data-voffset="['200']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="btns-box">
-                                <a href="./menu.html" class="animatedScroll theme-btn btn-style-one bt-orange">OUR MENU</a>
-                                <a href="#section-history" class="animatedScroll theme-btn btn-style-one bt-default">ABOUT US</a>
-                            </div>
-                        </div>
-                    </li>
+                    <div class="tp-caption"
+                         data-responsive_offset="on"
+                         data-type="text"
+                         data-height="none"
+                         data-width="['1170','1170','1170','420']"
+                         data-whitespace="normal"
+                         data-voffset="['200']"
+                         data-x="['center']"
+                         data-y="['middle','middle','middle','middle']"
+                         data-textalign="['center']"
+                         data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    </div>
+                </li>
 
-                   <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1686" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="img/slider/sliderbg4.jpg" data-title="Slide Title" data-transition="slotfade-horizontal">
-                        <img alt=""  class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="img/slider/sliderbg4.jpg"> 
-                        
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['-80']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Welcome to Govinda’s Restaurant</h2>
-                        </div>
-                        
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['0']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="title">The Best Delicious Food</p>
-                        </div>
-
-                        <div class="tp-caption" 
-                        data-x="['center']"
-                        data-hoffset="['15','135','15','15']"
-                        data-voffset="['100']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="description">Govinda's is a vegetarian / vegan restaurant serving fusion cuisine <br /> located in an historic building in downtown Toronto, minutes from Yorkville.</p>
-                        </div>
-                        
-                        <div class="tp-caption" 
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-width="['1170','1170','1170','420']"
-                        data-whitespace="normal"
-                        data-voffset="['200']"
-                        data-x="['center']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['center']"
-                        data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="btns-box">
-                                <a href="./menu.html" class="animatedScroll theme-btn btn-style-one bt-orange">OUR MENU</a>
-                                <a href="#section-history" class="animatedScroll theme-btn btn-style-one bt-default">ABOUT US</a>
-                            </div>
-                        </div>
-                    </li>
-                    
-                </ul>
+            </ul>
         </div>
         <!-- END REVOLUTION SLIDER -->
     </div>
@@ -344,72 +192,82 @@
 </section>
 <!-- Hero Section End -->
 
-    <!-- Footer Section Start -->
-    <section id="section-contact">
-        <div class="voffset-50"></div>
-            <div class="row">
-                <div class="container">
-                    <div class="row">
-                        
+<!-- Footer Section Start -->
+<section id="section-contact">
+    <footer>
+        <div class="row">
+            <div class="container">
+                <div class="row">
 
-                        
-                        <div class="col-lg-5 col-footer-3 footer-contact">
-                            <h4>Contact</h4>
-                            <p>
-                                <span>243 Avenue Road</span>
-                                <span>1-888-218-1040</span>
-                                <span>Toronto, ON M5R 2J6</span>
-                                <span><a href="mailto:info@govindas.ca">info@govindas.ca</a></span>
-                                <span class="margintop">Lunch: Mon - Sat </span>
-                                <span class="margintop">Dinner: Mon - Sat </span>
-                                <span>12:00 - 2:30PM</span>
-                                <span>6:00 - 9:00PM</span>
-                                <span class="margintop">Bistro Menu: Sun</span>
-                            </p>
-                        </div>
-                        <div class="col-lg-5 col-footer-4 footer-contact">
-                            <h4>Catering / Events</h4>
-                            <p>For questions regarding Govinds’s event planning and catering services, please call us at
-                                1-888-218-1040 or e-mail us at info@govindas.ca.</p>
-                        </div>
+                    <div class="voffset-50"></div>
+                    <div class="col-lg-5 col-footer-3 footer-contact">
+                        <h4>Contact</h4>
+                        <p>
+                            <span>243 Avenue Road</span>
+                            <span>1-888-218-1040</span>
+                            <span>Toronto, ON M5R 2J6</span>
+                            <a href="mailto:govindastoronto@gmail.com">govindastoronto@gmail.com</a>
+                            <span class="margintop">Lunch: Mon - Sat </span>
+                            <span class="margintop">Dinner: Mon - Sat </span>
+                            <span>12:00 - 2:30PM</span>
+                            <span>6:00 - 9:00PM</span>
+                            <span class="margintop">Bistro Menu: Sun</span>
+                        </p>
+                        <h4>Large Group?</h4>
+                        <p>
+                            Reservations are encouraged for over 5 people. To make a reservation please email <a href="mailto:govindastoronto@gmail.com">govindastoronto@gmail.com</a> or call 1-888-218-1040.
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-footer-4 footer-contact">
+                        <h4>Catering / Events</h4>
+                        <p>For questions regarding Govinds’s event planning and catering services, please call us at
+                            1-888-218-1040 or e-mail us at <a href="mailto:govindastoronto@gmail.com">govindastoronto@gmail.com</a></p>
+                        <h4>Take Out</h4>
+                        <p>Take Govinda's home with you! Kachoris, Samosas, & Sweet Boxes Available!</p>
+                        <h4>Delivery</h4>
+                        <p>Order through Uber Eats, Skipthedishes, Foodora, or Doordash.</p>
                     </div>
                     <div class="voffset-50"></div>
                 </div>
-                <div class="container-fluid">
-                    <div class="col-12 copyright">
-                        <div class="voffset-20"></div>
-                        <div class="row">
-                            <p>Copyright 2019 Govindas</p>
-                        </div>
+
+            </div>
+            <div class="container-fluid">
+                <div class="col-12 copyright">
+                    <div class="voffset-20"></div>
+                    <div class="row">
+                        <p>Copyright 2019 Govindas</p>
                     </div>
                 </div>
             </div>
-    </section>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.js"></script>
-    <script src="vendor/jquery/jquery-ui.js"></script>
-    <script src="vendor/jquery/jquery.timepicker.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+        </div>
+        </div>
+    </footer>
+</section>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.js"></script>
+<script src="vendor/jquery/jquery-ui.js"></script>
+<script src="vendor/jquery/jquery.timepicker.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
 
-    <!-- Revolution Slider -->
-    <script src="vendor/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-    <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-    <script src="vendor/revolution/js/extensions/revolution.extensions.all.js"></script>
+<!-- Revolution Slider -->
+<script src="vendor/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script src="vendor/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+<script src="vendor/revolution/js/extensions/revolution.extensions.all.js"></script>
 
-    <!-- Animation On Screen -->
-    <script src="vendor/aos/js/aos.js"></script>
+<!-- Animation On Screen -->
+<script src="vendor/aos/js/aos.js"></script>
 
-    <!-- Slick Slider -->
-    <script src="vendor/slick/slick.js"></script>
+<!-- Slick Slider -->
+<script src="vendor/slick/slick.js"></script>
 
-    <!-- Masonry -->
-    <script src="vendor/masonry/js/isotope.pkgd.js"></script>
+<!-- Masonry -->
+<script src="vendor/masonry/js/isotope.pkgd.js"></script>
 
-    <!-- LightGallery -->
-    <script src="vendor/lightGallery/js/lightgallery.js"></script>
+<!-- LightGallery -->
+<script src="vendor/lightGallery/js/lightgallery.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/main.js"></script>
+<!-- Custom scripts for this template -->
+<script src="js/main.js"></script>
 
 </body>
 

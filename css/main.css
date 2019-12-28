@@ -2325,11 +2325,10 @@ footer .logo{
 }
 #section-contact{
     background: #000000;
-    position: relative;
-    /* z-index: -1; */
-    /* width: 100%; */
-    bottom: 50px;
-    /* display: none; */
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    bottom: 0px;
  }
 
  footer h4{
