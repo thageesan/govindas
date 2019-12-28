@@ -220,11 +220,11 @@ $(window).on("load",function(){
   $('.timepicker').timepicker({ 
     'scrollDefault': 'now' 
   });
-  if ($("section.booking #bookingform button").isInViewport()) {
-      $("footer").show();
-  }else{
-      $("footer").hide();
-  }
+  // if ($("section.booking #bookingform button").isInViewport()) {
+  //     $("footer").show();
+  // }else{
+  //     $("footer").hide();
+  // }
 
 
 
@@ -266,11 +266,11 @@ $.fn.isInViewport = function() {
 $(window).on('resize scroll', function () {
     AOS.refresh();
     $("body").css("margin-bottom",$("footer").css("height"));
-    if ($("section.booking").isInViewport()) {
-        $("footer").show();
-    }else{
-        $("footer").hide();
-    }
+    // if ($("section.booking").isInViewport()) {
+    //     $("footer").show();
+    // }else{
+    //     $("footer").hide();
+    // }
     if($(window).scrollTop() >= 85){
         $("header").addClass("fixed-small")
     }else{

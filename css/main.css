@@ -105,13 +105,13 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 html,body{
-        width: 100%;
+    width: 100%;
     max-width: 100%;
     overflow-x: hidden;
 }
 
 body {
-  font-family: 'Google Sans';
+  font-family: Arial,Helvetica,sans-serif;
   overflow-x: hidden;
 }
 body.dark-version{
@@ -308,7 +308,6 @@ body.dark-version .dropdown-item:focus,body.dark-version .dropdown-item:hover{
 }
 
 #slider1 p.title{
-  font-family: Google Sans;
   font-size: 6vh !important;
   font-weight: bold;
   font-style: normal;
@@ -320,7 +319,6 @@ body.dark-version .dropdown-item:focus,body.dark-version .dropdown-item:hover{
   color: #ffffff;
 }
 #slider1 p.description{
-  font-family: Google Sans;
   font-size: 20.5px;
   font-weight: 500;
   font-style: normal;
@@ -332,7 +330,6 @@ body.dark-version .dropdown-item:focus,body.dark-version .dropdown-item:hover{
 }
 
 #slider1 .text{
-  font-family: Google Sans;
   font-size: 21.5px;
   font-weight: 300;
   font-style: normal;
@@ -354,7 +351,6 @@ body.dark-version .dropdown-item:focus,body.dark-version .dropdown-item:hover{
     transition: all 0.5s ease;
 }
 #slider1 a.bt-orange{
-    font-family: Google Sans;
     border: solid 1px #ff7200; 
     background-color: #ff7200;
     color: #ffffff;
@@ -384,7 +380,6 @@ a.bt-orange.center{
     margin-top: 50px;
 }
 a.bt-default{
-    font-family: Google Sans;
     border: solid 1px #ffffff; 
     background-color: transparent;
     color: #ffffff;
@@ -406,7 +401,6 @@ a.bt-orange:hover, a.bt-orange:active,a.bt-orange:focus, button.bt-orange:hover,
     transition: all 0.5s ease;
 }
 a.bt-orange, button.bt-orange{
-    font-family: Google Sans;
     border: solid 1px #ff7200; 
     background-color: #ff7200;
     color: #ffffff;
@@ -501,7 +495,6 @@ a.bt-orange.bt-menu-reserve{
 
 /*----------------- navbar start -------------------*/
 .navbar {
-    font-family: Google Sans, sans-serif;
     list-style: none;
     margin: 0;
     margin: 5px 0;
@@ -526,7 +519,6 @@ a.bt-orange.bt-menu-reserve{
     transition: all .5s ease;
     position: relative;
     text-transform: uppercase;
-    font-family: 'Google Sans';
     padding: 8px 7px;
 }
 .navbar li .dropdown-item{
@@ -1739,7 +1731,6 @@ a.scroll-down span::before {
 }
 
 h4{
-    font-family: Google Sans;
     font-size: 59.5px;
     font-weight: bold;
     font-style: normal;
@@ -1925,7 +1916,6 @@ h4.small.right:before{
 
 .contentslide .sliderslide-content h4{
     color: #000000;
-    font-family: Google Sans;
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
@@ -1944,7 +1934,6 @@ h4.small.right:before{
 }
 .contentslide .sliderslide-content p{
     color: #807b7b;
-    font-family: Google Sans;
     font-size: 15px;
     max-width: 260px;
 }
@@ -2076,6 +2065,11 @@ body.dark-version footer, body.dark-version footer .copyright{
 .history-content .info{
         max-width: 580px;
         padding-left: 100px
+}
+
+#section-menu {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .testimonials-content{
@@ -2222,7 +2216,6 @@ body.dark-version .section.booking {
     color: #eaeaea;
     opacity: 1;
     font-weight: 500;
-    font-family: 'Google Sans';
     text-transform: none;
 }
 
@@ -2230,7 +2223,6 @@ body.dark-version .section.booking {
     color: #eaeaea;
     opacity: 1;
      font-weight: 500;
-    font-family: 'Google Sans';
     text-transform: none;
 }
 
@@ -2238,7 +2230,6 @@ body.dark-version .section.booking {
     color: #eaeaea;
     opacity: 1;
      font-weight: 500;
-    font-family: 'Google Sans';
     text-transform: none;
 }
 
@@ -2246,7 +2237,6 @@ body.dark-version .section.booking {
     color: #ffffff;
     opacity: 1;
      font-weight: 600;
-    font-family: 'Google Sans';
     font-size: 15.5px;
     text-transform: none;
 }
@@ -2256,7 +2246,6 @@ body.dark-version .section.booking {
     color: #eaeaea;
     opacity: 1;
     font-weight: 500;
-    font-family: 'Google Sans';
     font-size: 15.5px;
     text-transform: none;
 }
@@ -2264,8 +2253,7 @@ body.dark-version .section.booking {
 .booking-form#newsform .form-control:-ms-input-placeholder {
     color: #eaeaea;
     opacity: 1;
-     font-weight: 500;
-    font-family: 'Google Sans';
+    font-weight: 500;
     font-size: 15.5px;
     text-transform: none;
 }
@@ -2273,8 +2261,7 @@ body.dark-version .section.booking {
 .booking-form#newsform .form-control::placeholder {
     color: #eaeaea;
     opacity: 1;
-     font-weight: 500;
-    font-family: 'Google Sans';
+    font-weight: 500;
     font-size: 15.5px;
     text-transform: none;
 }
@@ -2336,13 +2323,13 @@ body.dark-version .section.booking {
 footer .logo{
     max-width: 220px;
 }
-footer{
+#section-contact{
     background: #000000;
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    bottom: 1px;
-    display: none;
+    position: relative;
+    /* z-index: -1; */
+    /* width: 100%; */
+    bottom: 50px;
+    /* display: none; */
  }
 
  footer h4{
@@ -2358,7 +2345,6 @@ footer{
   
  }
  footer p, footer p a{
-    font-family: Google Sans;
   font-size: 15.5px;
   font-weight: normal;
   font-style: normal;
@@ -2553,7 +2539,6 @@ ul.menu-price li p.ingredients{
 }
 
 .history-content p{
-    font-family: Google Sans;
     font-size: 18px;
     font-style: normal;
     font-stretch: normal;
@@ -2564,7 +2549,6 @@ ul.menu-price li p.ingredients{
     line-height: 33px;
 }
 .testimonials-content p{
-    font-family: Google Sans;
     font-size: 18px;
     font-style: normal;
     font-stretch: normal;
@@ -2799,7 +2783,6 @@ ul.menu-price li p.ingredients{
     font-stretch: normal;
     letter-spacing: -.6px;
     color: #fff;
-    font-family: Google Sans, sans-serif
 }
 
 .grid-item__rollover .tagsinfo {
@@ -2828,7 +2811,6 @@ ul.menu-price li p.ingredients{
 }
 
 .loadmore {
-    font-family: Google Sans, sans-serif;
     font-weight: 500;
     font-size: 14px;
     text-align: center;
@@ -2841,7 +2823,6 @@ ul.menu-price li p.ingredients{
 .loadmore span {
     margin: 20px 0;
     cursor: pointer;
-    font-family: Google Sans;
     border: solid 1px #ff7200; 
     background-color: #ff7200;
     color: #ffffff;
@@ -2889,7 +2870,6 @@ body.dark-version #section-teamSection{
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: Google Sans, sans-serif;
     font-weight: 600;
     color: #0e0e0f;
     font-size: 15px;
@@ -3440,7 +3420,7 @@ header .col-auto{
         line-height: 40px;
     }
     #slider1 h2{
-        font-size: 33px;
+        font-size: 27px;
         margin-top: 40px;
     }
     #slider1 p.description{
@@ -3552,7 +3532,7 @@ header .col-auto{
 }
 
 @media (max-width: 480px){
-    .header.overlayer-fixed{ padding-top: 20px; }
+    .header.overlayer-fixed{ padding: 15px; }
     .navbar-brand img{ margin-left: -10px; max-width: 150px; max-height: 50px; }
     .header.overlayer-fixed .navbar{ top: 15px;}
     a.bt-orange.bt-reserve-slider.left, button.bt-reserve-slider.bt-orange.left, .btns-social-slider{
@@ -3692,7 +3672,7 @@ header .col-auto{
         margin-top: 40px;
     }
     #slider1 h2{
-        font-size: 33px;
+        font-size: 27px;
         margin-top: 40px;
     }
     #slider1 p.description{
@@ -3706,7 +3686,7 @@ header .col-auto{
         line-height: 45px;
     }
     #slider1 h2{
-        font-size: 33px;
+        font-size: 27px;
         margin-top: -40px;
     }
     #slider1 p.description{
@@ -3785,3 +3765,6 @@ header .col-auto{
         margin-top: 25px;
     }
 }
+
+
+
