@@ -193,7 +193,7 @@ $('.slide-team').slick({
 
 
 
-$("body").css("margin-bottom",$("footer").css("height"));
+// $("body").css("margin-bottom",$("footer").css("height"));
 $('.slide-specialities').find('.sliderslide-content').css("height",$('.slide-specialities').find('.slick-track').css("height"));
 
   /* ------------------------------- */
@@ -265,7 +265,7 @@ $.fn.isInViewport = function() {
 
 $(window).on('resize scroll', function () {
     AOS.refresh();
-    $("body").css("margin-bottom",$("footer").css("height"));
+    // $("body").css("margin-bottom",$("footer").css("height"));
     // if ($("section.booking").isInViewport()) {
     //     $("footer").show();
     // }else{
