@@ -400,8 +400,8 @@ a.bt-default {
     font-stretch: normal;
     font-size: 15.5px;
     text-align: center;
-    line-height: 12px;
-    padding: 25px 60px;
+    line-height: 18px;
+    padding: 24px 31px;
     transition: all 0.5s ease !important;
 }
 
@@ -422,7 +422,7 @@ a.bt-orange, button.bt-orange {
     font-stretch: normal;
     font-size: 15.5px;
     text-align: center;
-    line-height: 12px;
+    line-height: 18px;
     padding: 24px 31px;
     transition: all 0.5s ease !important;
     cursor: pointer;
@@ -430,10 +430,6 @@ a.bt-orange, button.bt-orange {
 
 .design-slider a.bt-orange {
     padding: 24px 41px;
-}
-
-a.bt-orange, a.bt-default {
-    margin: 0 12px;
 }
 
 body.dark-version a.bt-orange, body.dark-version #slider1 a.bt-orange, body.dark-version a.bt-default:hover, body.dark-version .loadmore.min span {
