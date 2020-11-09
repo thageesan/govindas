@@ -394,10 +394,9 @@ a.bt-orange.center {
 a.bt-default {
     border: solid 1px #ffffff;
     background-color: transparent;
-    color: #ffffff;
+    color: #000000;
     display: inline-block;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-stretch: normal;
     font-size: 15.5px;
     text-align: center;
@@ -433,6 +432,10 @@ a.bt-orange, button.bt-orange {
     padding: 24px 41px;
 }
 
+a.bt-orange, a.bt-default {
+    margin: 0 12px;
+}
+
 body.dark-version a.bt-orange, body.dark-version #slider1 a.bt-orange, body.dark-version a.bt-default:hover, body.dark-version .loadmore.min span {
     background: #1ea022;
     border: 1px solid #1ea022;
@@ -465,7 +468,7 @@ a.bt-orange.left, button.bt-orange.left {
     float: left;
 }
 
-a.bt-orange span, button.bt-orange span {
+a.bt-orange span, a.bt-default span, button.bt-orange span {
     left: 10px;
     position: relative;
 }
@@ -474,14 +477,14 @@ a.bt-orange span.left0, button.bt-orange span.left0 {
     left: 0;
 }
 
-a.bt-orange span img, .loadmore span img, .booking-form label span img, button.bt-orange span img {
+a.bt-orange span img, a.bt-default span img, .loadmore span img, .booking-form label span img, button.bt-orange span img {
     overflow: hidden;
     height: 13px;
     filter: invert(100%) sepia(0%) saturate(7480%) hue-rotate(7deg) brightness(113%) contrast(96%);
     top: -1px
 }
 
-a.bt-orange:hover span, button.bt-orange:hover span {
+a.bt-orange:hover span, a.bt-default:hover span, button.bt-orange:hover span {
     animation-duration: 1s;
     animation-name: btArrow;
     animation-iteration-count: infinite;
