@@ -3159,6 +3159,10 @@ ul.filters li:last-child {
     text-align: center;
 }
 
+.copyright h6 {
+    font-size: xx-small;
+}
+
 body.dark-version .contentslide.slide-specialities .sliderslide-content, body.dark-version .contentslide.slide-team .sliderslide-content {
     background: #100e0f;
     border: 1px solid #100e0f;
