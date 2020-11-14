@@ -426,6 +426,7 @@ a.bt-orange, button.bt-orange {
     padding: 24px 31px;
     transition: all 0.5s ease !important;
     cursor: pointer;
+    margin: 0 6px;
 }
 
 .design-slider a.bt-orange {
@@ -3159,7 +3160,7 @@ ul.filters li:last-child {
 }
 
 .copyright h6 {
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 body.dark-version .contentslide.slide-specialities .sliderslide-content, body.dark-version .contentslide.slide-team .sliderslide-content {
