@@ -2586,6 +2586,7 @@ footer p span.margintop {
     display: inline-block;
     max-width: 500px;
     padding-left: 0;
+    vertical-align: top;
 }
 
 .booking-form input, .booking-form input:active, .booking-form input:focus, .booking-form input:hover {
@@ -3160,7 +3161,9 @@ ul.filters li:last-child {
 }
 
 .copyright h6 {
+    color: rgba(255, 255, 255, 0.3);
     font-size: x-small;
+    margin: 0 auto;
 }
 
 body.dark-version .contentslide.slide-specialities .sliderslide-content, body.dark-version .contentslide.slide-team .sliderslide-content {
